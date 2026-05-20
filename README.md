@@ -9,7 +9,7 @@ back to you within two business days.
 
 ## Contact us
 
-- **Email:** [wyattflew@gmail.com]
+- **Email:** [wyattflew@yahoo.com]
 - **Response time:** within two business days
 - **Privacy & data requests:** see the
   [Privacy Policy](./privacy.md)
