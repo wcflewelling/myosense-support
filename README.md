@@ -1,4 +1,4 @@
-# myosense-support
+# MyoSense Support
 
 Welcome — this page covers everything you need to get MyoSense running,
 plus answers to the questions we hear most. If you don't see your
@@ -9,7 +9,7 @@ back to you within two business days.
 
 ## Contact us
 
-- **Email:** [wyattflew@yahoo.com]
+- **Email:** [support@myosense.app](mailto:support@myosense.app)
 - **Response time:** within two business days
 - **Privacy & data requests:** see the
   [Privacy Policy](./privacy.md)
@@ -175,4 +175,3 @@ email us.
 - A MyoSense Bluetooth sensor (one per leg)
 - An internet connection for account sign-in and cloud sync (offline
   recording and CSV export work without one)
-
