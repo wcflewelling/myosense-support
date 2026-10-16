@@ -2,14 +2,14 @@
 
 Welcome — this page covers everything you need to get MyoSense running,
 plus answers to the questions we hear most. If you don't see your
-question here, write to us at **support@myosense.app** and we'll get
+question here, write to us at **wyattflew@yahoo.com** and we'll get
 back to you within two business days.
 
 ---
 
 ## Contact us
 
-- **Email:** [support@myosense.app](mailto:support@myosense.app)
+- **Email:** [wyattflew@yahoo.com](mailto:wyattflew@yahoo.com)
 - **Response time:** within two business days
 - **Privacy & data requests:** see the
   [Privacy Policy](./privacy.md)
@@ -117,7 +117,7 @@ emailed reset link.
 
 ### I want to delete my account
 
-Email **support@myosense.app** from the address tied to your account
+Email **wyattflew@yahoo.com** from the address tied to your account
 and we will fully delete it (and all associated sessions) within 30
 days, in line with our [Privacy Policy](./privacy.md).
 

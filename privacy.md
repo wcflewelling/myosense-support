@@ -9,7 +9,7 @@ published by Wyatt Flewelling ("we", "us"). By using the App, you agree
 to the practices described below.
 
 If you have questions about this policy or want to exercise any of the
-rights described in it, email **support@myosense.app**.
+rights described in it, email **wyattflew@yahoo.com**.
 
 ---
 
@@ -165,10 +165,10 @@ by applicable law.
 Regardless of where you live, you can:
 
 - **Access** the data we hold about you — email
-  **support@myosense.app**.
+  **wyattflew@yahoo.com**.
 - **Correct** information by editing your profile in the App.
 - **Delete** your account and associated session data by writing to
-  **support@myosense.app**. We will complete deletion within 30 days.
+  **wyattflew@yahoo.com**. We will complete deletion within 30 days.
 - **Export** your sessions as CSV files at any time from the in-app
   recording screen.
 - **Withdraw consent** for optional diagnostic collection by disabling
@@ -189,7 +189,7 @@ MyoSense is intended for use by adults and by minors under the
 supervision of a parent or guardian.
 We do not knowingly collect data from children under 13 without
 verifiable parental consent. If you believe a child has provided data
-to the App without consent, email **support@myosense.app** and we will
+to the App without consent, email **wyattflew@yahoo.com** and we will
 delete it.
 
 ---
@@ -225,4 +225,4 @@ is material, notify you inside the App on next launch.
 Questions, complaints, or data requests:
 
 **Wyatt Flewelling**
-Email: **support@myosense.app**
+Email: **wyattflew@yahoo.com**
