@@ -36,10 +36,11 @@ When you write in, please include:
 ### 2. Sign in
 
 1. Open MyoSense.
-2. Sign in with your clinic-provided email and password, or create a
-   new account from the sign-in screen.
-3. Choose your role: **Patient**, **Caregiver**, or **Physician**. You
-   can change this later from the account screen.
+2. Sign in with your email and password, or create a new account from
+   the sign-in screen.
+3. Choose your interface: **Pro** (live monitor, recordings, electrode
+   map) or **Companion** (one large activity readout). You can change
+   this later from the account screen.
 
 ### 3. Pair the sensors
 
@@ -50,7 +51,7 @@ When you write in, please include:
 ### 4. Record a session
 
 1. With both sensors connected, tap **Record**.
-2. Run the patient through the prescribed exercises.
+2. Perform the exercises you want to record.
 3. Tap **Stop** to save the session. The session appears immediately
    in the **Sessions** tab.
 
@@ -125,18 +126,18 @@ days, in line with our [Privacy Policy](./privacy.md).
 
 ## Frequently asked questions
 
-**Is MyoSense an FDA-cleared medical device?**
-No. MyoSense is a monitoring aid. Treat it as a tool for visualization
-and data collection, not as a diagnostic device. Always work under the
-supervision of a qualified healthcare professional.
+**Is MyoSense a medical device?**
+No. MyoSense is a wellness, biofeedback, and research tool. It is not
+FDA-cleared, is not intended to diagnose, treat, or monitor any disease
+or medical condition, and should not be used to make clinical decisions.
 
 **Where is my data stored?**
 In Google Firebase (Firestore), in a record linked to your Firebase
 user ID. CSV exports live on your device until you share them.
 
 **Can I use MyoSense without an account?**
-No — accounts are required so sessions can be linked to the right
-patient and shared with the right clinician.
+No — an account is required so your sessions sync to the cloud and can
+be shared with the people you choose to invite.
 
 **Does MyoSense work without internet?**
 Live monitoring and local CSV export work fully offline. Cloud sync to
@@ -146,11 +147,12 @@ Firestore resumes automatically when the network comes back.
 Yes — the App is universal and runs on iPhone and iPad (iOS / iPadOS
 17 or later).
 
-**Can two clinicians see the same patient?**
-Yes. The patient invites each clinician from their account screen.
+**Can I share my sessions with a coach, trainer, or clinician?**
+Yes. Invite each person from your account screen. You can revoke their
+access at any time.
 
 **Does MyoSense share my data with anyone?**
-Only with the clinicians or caregivers you explicitly invite, and with
+Only with the people you explicitly invite, and with
 our cloud processor (Firebase). See the
 [Privacy Policy](./privacy.md) for the full breakdown.
 

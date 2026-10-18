@@ -43,7 +43,7 @@ When you record an EMG session, the App stores:
 - An activity-level label (e.g. "Resting", "Active") computed by the App
 - Optional session notes you enter yourself
 
-This information is linked to your account so you and any clinician you
+This information is linked to your account so you and anyone you
 invite can review it later.
 
 ### 1.3 Device and diagnostic data
