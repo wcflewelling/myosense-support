@@ -32,8 +32,8 @@ There's no account and no sign-in. Open the app and go.
 
 1. Open MyoSense. Three short screens explain how it works.
 2. On the last screen, tap **Allow Bluetooth** so the app can talk to
-   your sensor.
-3. No sensor yet? Tap **Try the demo** to explore with a synthetic
+   your sensors.
+3. No sensors yet? Tap **Try the demo** to explore with a synthetic
    signal. You can turn Demo mode off later in **Settings**.
 
 ### 2. Place the electrodes
@@ -45,13 +45,15 @@ There's no account and no sign-in. Open the app and go.
 3. Teal is your **left** side and amber is your **right** side.
 4. The muscle you pick is the one shown on the **Monitor** tab.
 
-### 3. Connect the sensor
+### 3. Connect the sensors
 
-1. Make sure the sensor is powered on. The status LED should pulse
-   slowly when it's looking for a connection.
-2. MyoSense finds it automatically. The status at the top of
-   **Monitor** reads **Connected** when it's ready.
-3. If the sensor is worn the other way round, open **Settings** and tap
+MyoSense uses two sensors: one on your left side and one on your right.
+
+1. Make sure both sensors are powered on. The status LED should pulse
+   slowly when a sensor is looking for a connection.
+2. MyoSense finds them automatically. The status at the top of
+   **Monitor** reads **Connected** when they're ready.
+3. If the left and right sensors are swapped, open **Settings** and tap
    **Swap sides**.
 
 ### 4. Record a session
@@ -75,7 +77,7 @@ There's no account and no sign-in. Open the app and go.
 
 ## Troubleshooting
 
-### The sensor won't connect
+### A sensor won't connect
 
 1. Make sure Bluetooth is **on** in iOS Settings.
 2. Confirm MyoSense has Bluetooth permission: iOS Settings → MyoSense
@@ -83,7 +85,7 @@ There's no account and no sign-in. Open the app and go.
 3. Check that Demo mode is off (**Settings** → **Demo mode**).
 4. Power-cycle the sensor (slide the switch off, wait five seconds,
    slide it on).
-5. Stand within three feet of the sensor.
+5. Stand within three feet of the sensors.
 6. In **Settings**, tap **Disconnect**, then **Connect**. If that
    doesn't help, fully quit MyoSense (swipe up from the app switcher)
    and try again.
@@ -93,7 +95,7 @@ There's no account and no sign-in. Open the app and go.
 - Check the pads are firmly on the skin and placed as the
   **Electrodes** tab shows.
 - Open **Details** on the **Monitor** tab. A "Low signal: check sensor
-  placement" note means the sensor sees very little activity.
+  placement" note means the sensors see very little activity.
 
 ### Left and right look swapped
 
@@ -162,9 +164,8 @@ from **Settings** → **Data**. Uninstalling the app removes all of it.
 Yes — the app runs on iPhone and iPad.
 
 **What hardware do I need?**
-A MyoSense Bluetooth sensor with its electrode pads, and an iPhone or
-iPad with Bluetooth. The sensor reads two channels: one for your left
-side and one for your right.
+Two MyoSense Bluetooth sensors (one for each side) with their electrode
+pads, and an iPhone or iPad with Bluetooth.
 
 ---
 
@@ -180,5 +181,5 @@ email us.
 
 - iPhone or iPad running iOS / iPadOS 26.2 or later
 - Bluetooth Low Energy support
-- A MyoSense Bluetooth sensor
+- Two MyoSense Bluetooth sensors (one per side)
 - No internet connection or account needed
