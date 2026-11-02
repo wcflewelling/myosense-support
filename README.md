@@ -18,7 +18,7 @@ When you write in, please include:
 
 - The iOS version and device model you're using (Settings → General →
   About)
-- The MyoSense app version (in-app: account screen, bottom of the page)
+- The MyoSense app version (in the app: **Settings** tab → **Version**)
 - A short description of what you were doing and what happened
 - A screenshot or screen recording if you can
 
@@ -26,81 +26,91 @@ When you write in, please include:
 
 ## Quick start
 
-### 1. Install the hardware
+There's no account and no sign-in. Open the app and go.
 
-1. Place a MyoSense sensor on each leg according to the in-app
-   **Electrode Map** screen.
-2. Make sure the sensor is powered on. The status LED should pulse
+### 1. First launch
+
+1. Open MyoSense. Three short screens explain how it works.
+2. On the last screen, tap **Allow Bluetooth** so the app can talk to
+   your sensor.
+3. No sensor yet? Tap **Try the demo** to explore with a synthetic
+   signal. You can turn Demo mode off later in **Settings**.
+
+### 2. Place the electrodes
+
+1. Open the **Electrodes** tab and pick a muscle group (Legs, Upper
+   body, Arms, Core). Use **Front / Back** to switch views.
+2. Tap a muscle on the body figure to see where the pads go. Each side
+   gets two pads about 2 cm apart, in line with the muscle.
+3. Teal is your **left** side and amber is your **right** side.
+4. The muscle you pick is the one shown on the **Monitor** tab.
+
+### 3. Connect the sensor
+
+1. Make sure the sensor is powered on. The status LED should pulse
    slowly when it's looking for a connection.
-
-### 2. Sign in
-
-1. Open MyoSense.
-2. Sign in with your clinic-provided email and password, or create a
-   new account from the sign-in screen.
-3. Choose your role: **Patient**, **Caregiver**, or **Physician**. You
-   can change this later from the account screen.
-
-### 3. Pair the sensors
-
-1. From the **Live Monitor** tab, tap **Pair sensor** for each side.
-2. Select your sensor from the list of nearby Bluetooth devices.
-3. The status pill turns green when the sensor is connected.
+2. MyoSense finds it automatically. The status at the top of
+   **Monitor** reads **Connected** when it's ready.
+3. If the sensor is worn the other way round, open **Settings** and tap
+   **Swap sides**.
 
 ### 4. Record a session
 
-1. With both sensors connected, tap **Record**.
-2. Run the patient through the prescribed exercises.
-3. Tap **Stop** to save the session. The session appears immediately
-   in the **Sessions** tab.
+1. On **Monitor**, tap **Start**.
+2. Watch each side's level (Resting, Light, Strong) and the left/right
+   balance while you work.
+3. Tap **Stop**. A summary opens with peak levels, traces and the
+   average balance. Give the session a name if you like.
 
 ### 5. Export data
 
-1. Open a saved session.
-2. Tap the share button in the top-right.
+1. Open a session from the **Sessions** tab (or the summary after
+   **Stop**).
+2. Tap **Export CSV**.
 3. Choose **Save to Files**, **Mail**, **Messages**, or any other share
-   destination. The export is a CSV containing raw voltage and TKEO
-   energy for both channels.
+   destination. The export contains raw voltage and TKEO energy for
+   both channels.
 
 ---
 
 ## Troubleshooting
 
-### The sensor won't pair
+### The sensor won't connect
 
 1. Make sure Bluetooth is **on** in iOS Settings.
 2. Confirm MyoSense has Bluetooth permission: iOS Settings → MyoSense
    → Bluetooth.
-3. Power-cycle the sensor (slide the switch off, wait five seconds,
+3. Check that Demo mode is off (**Settings** → **Demo mode**).
+4. Power-cycle the sensor (slide the switch off, wait five seconds,
    slide it on).
-4. Stand within three feet of the sensor while pairing.
-5. If pairing still fails, fully quit MyoSense (swipe up from the app
-   switcher) and try again.
+5. Stand within three feet of the sensor.
+6. In **Settings**, tap **Disconnect**, then **Connect**. If that
+   doesn't help, fully quit MyoSense (swipe up from the app switcher)
+   and try again.
 
-### The Live Monitor screen is blank
+### Both sides always say "Resting"
 
-- This is normal until both sensors are paired and producing data.
-- If the sensors are paired and the chart is still blank, try
-  re-recording: tap **Stop**, then **Record** again.
+- Check the pads are firmly on the skin and placed as the
+  **Electrodes** tab shows.
+- Open **Details** on the **Monitor** tab. A "Low signal: check sensor
+  placement" note means the sensor sees very little activity.
 
-### Sessions aren't syncing to the cloud
+### Left and right look swapped
 
-- Check your internet connection. MyoSense will retry automatically
-  when the network comes back, and the in-app status row tells you
-  whether sync is up to date.
-- If you signed in on a new device, make sure you used the same email
-  address. Sessions are scoped to the account that recorded them.
+Open **Settings** and tap **Swap sides**. This only changes the labels;
+CSV files always keep channel 1 and channel 2 in the same columns.
 
 ### Face ID isn't working
 
+- MyoSense can ask for Face ID, Touch ID or your passcode when it opens.
 - iOS Settings → Face ID & Passcode → make sure MyoSense is enabled.
-- If you've changed your face data recently you may need to sign in
-  with your password once to re-enable Face ID.
+- If Face ID fails, you can enter your device passcode instead.
 
 ### CSV export looks corrupted
 
 - Open the file in a spreadsheet that supports UTF-8 (Numbers, Excel,
-  Google Sheets). The header row is:
+  Google Sheets). The lines starting with `#` describe the session. The
+  header row is:
 
   ```
   idx, dev_ts_us, phone_ms, v1_volts, v2_volts, tkeo1, tkeo2
@@ -109,54 +119,52 @@ When you write in, please include:
 - `v1_volts` / `v2_volts` are raw voltage in volts. `tkeo1` / `tkeo2`
   are dimensionless activation energy values, useful for spotting
   muscle activity events.
+- Long recordings are split into several files (`_part001`,
+  `_part002`, …). Export shares all parts of a session.
 
-### I forgot my password
+### I signed in on an older version — where did my account go?
 
-From the sign-in screen, tap **Forgot password?** and follow the
-emailed reset link.
-
-### I want to delete my account
-
-Email **wyattflew@yahoo.com** from the address tied to your account
-and we will fully delete it (and all associated sessions) within 30
-days, in line with our [Privacy Policy](./privacy.md).
+MyoSense no longer has accounts. Recordings on your phone are still in
+the **Sessions** tab. Session names that were only saved to the cloud
+in older versions can't be brought back.
 
 ---
 
 ## Frequently asked questions
 
-**Is MyoSense an FDA-cleared medical device?**
-No. MyoSense is a monitoring aid. Treat it as a tool for visualization
-and data collection, not as a diagnostic device. Always work under the
-supervision of a qualified healthcare professional.
+**Is MyoSense a medical device?**
+No. MyoSense is a wellness and biofeedback tool for training feedback.
+It is not intended to diagnose, treat or monitor any medical condition.
+
+**Do I need an account?**
+No. There's no sign-in.
 
 **Where is my data stored?**
-In Google Firebase (Firestore), in a record linked to your Firebase
-user ID. CSV exports live on your device until you share them.
-
-**Can I use MyoSense without an account?**
-No — accounts are required so sessions can be linked to the right
-patient and shared with the right clinician.
-
-**Does MyoSense work without internet?**
-Live monitoring and local CSV export work fully offline. Cloud sync to
-Firestore resumes automatically when the network comes back.
-
-**Does MyoSense work with iPad?**
-Yes — the App is universal and runs on iPhone and iPad (iOS / iPadOS
-17 or later).
-
-**Can two clinicians see the same patient?**
-Yes. The patient invites each clinician from their account screen.
+On your phone only. Recordings and session names never leave your
+device unless you export them. See the [Privacy Policy](./privacy.md).
 
 **Does MyoSense share my data with anyone?**
-Only with the clinicians or caregivers you explicitly invite, and with
-our cloud processor (Firebase). See the
-[Privacy Policy](./privacy.md) for the full breakdown.
+No. The only data that leaves the device is anonymous app-usage and
+diagnostic data (Google Analytics for Firebase), never your recordings.
+
+**Does MyoSense work without internet?**
+Yes. Everything works offline.
+
+**Can someone nearby watch my levels?**
+Turn on **Simple view** in **Settings**. The Monitor then shows just the
+live levels and balance, with a short explanation.
+
+**How do I delete my data?**
+Swipe left on a session in the **Sessions** tab, or delete everything
+from **Settings** → **Data**. Uninstalling the app removes all of it.
+
+**Does MyoSense work with iPad?**
+Yes — the app runs on iPhone and iPad.
 
 **What hardware do I need?**
-A MyoSense Bluetooth sensor (one per leg) and an iPhone or iPad
-running iOS 17 or later with Bluetooth enabled.
+A MyoSense Bluetooth sensor with its electrode pads, and an iPhone or
+iPad with Bluetooth. The sensor reads two channels: one for your left
+side and one for your right.
 
 ---
 
@@ -170,8 +178,7 @@ email us.
 
 ## System requirements
 
-- iPhone or iPad running iOS / iPadOS 17 or later
-- Bluetooth Low Energy support (every iPhone and iPad since 2014)
-- A MyoSense Bluetooth sensor (one per leg)
-- An internet connection for account sign-in and cloud sync (offline
-  recording and CSV export work without one)
+- iPhone or iPad running iOS / iPadOS 26.2 or later
+- Bluetooth Low Energy support
+- A MyoSense Bluetooth sensor
+- No internet connection or account needed
